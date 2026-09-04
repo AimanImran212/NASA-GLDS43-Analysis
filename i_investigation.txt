@@ -1,0 +1,114 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	NCBITAXON	EFO	OBI	NCIT	MESH	UO
+Term Source File	http://data.bioontology.org/ontologies/NCBITAXON	http://data.bioontology.org/ontologies/EFO	http://data.bioontology.org/ontologies/OBI	http://data.bioontology.org/ontologies/NCIT	http://data.bioontology.org/ontologies/MESH	http://data.bioontology.org/ontologies/UO
+Term Source Version	2	166	32	52	5	43
+Term Source Description	National Center for Biotechnology Information (NCBI) Organismal Classification	Experimental Factor Ontology	Ontology for Biomedical Investigations	National Cancer Institute Thesaurus	Medical Subject Headings	Units of Measurement Ontology
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-43
+Study Title	Effect of simulated microgravity on E. coli K12 MG1655 growth and gene expression
+Study Description	This study demonstrates simulated microgravity effects on E. coli K 12 MG1655 when grown on LB medium supplemented with glycerol. The results imply that E. coli readily reprograms itself to combat the multiple stresses imposed due to microgravity. Under these conditions it survives by upregulating oxidative stress protecting genes and simultaneously down regulating the membrane transporters and synthases to maintain cell homeostasis. In this study, a clinostat that mimics microgravity conditions was used to investigate the effects of microgravity on E. coli grown in LB medium supplemented with glycerol to monitor the effects on growth and global gene expression using Affymetrix DNA microarrays.
+Study Submission Date	06-Sep-2012
+Study Public Release Date	06-Sep-2012
+Study File Name	s_OSD-43.txt
+Comment[Acknowledgments]	We would like to thank Santosh Bhaskaran, Vascular Biology Lab, AU-KBC research centre, Anna University, Chennai for deducing gravity calculations of the study. We would also like to thank Dr. Mohammed Idris for help in using DAVID software and P. Ramesh and M.B. Madhavi for microarray data analysis all from the Centre for Cellular and Molecular Biology, Hyderabad.
+Comment[DOI]	10.26030/v53z-qn23
+Comment[DOI]	10.26030/v53z-qn23
+Comment[Data Source Accession]	E-GEOD-40648
+Comment[Data Source Link]	http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE40648
+Comment[Experiment Platform]	
+Comment[Flight Program]	
+Comment[Funding]	The project was funded by ISRO, India up to March 2012. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+Comment[Identifiers]	
+Comment[Managing NASA Center]	
+Comment[Mission End]	
+Comment[Mission Link]	
+Comment[Mission Name]	
+Comment[Mission Start]	
+Comment[Project Identifier]	Simulated_Microgravity
+Comment[Project Link]	
+Comment[Project Title]	
+Comment[Project Type]	Ground Study
+Comment[Space Program]	ISRO
+Comment[Study Funding Agency]	
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	transcription profiling by array
+Study Design Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0002768
+Study Design Type Term Source REF	EFO
+STUDY PUBLICATIONS
+Study PubMed ID	23472115
+Study Publication DOI	10.1371/journal.pone.0057860
+Study Publication Author List	Arunasri K, Adil M, Venu Charan K, Suvro C, Himabindu Reddy S, Shivaji S
+Study Publication Title	Effect of Simulated Microgravity on E. coli K12 MG1655 Growth and Gene Expression.
+Study Publication Status	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO
+Comment[Study Publication Link]	http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3589462/
+STUDY FACTORS
+Study Factor Name	Microgravity Simulation
+Study Factor Type	Weightlessness Simulation
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D018474
+Study Factor Type Term Source REF	MESH
+STUDY ASSAYS
+Study Assay File Name	a_OSD-43_transcription-profiling_dna-microarray_Affymetrix.txt
+Study Assay Measurement Type	transcription profiling
+Study Assay Measurement Type Term Accession Number	http://purl.obolibrary.org/obo/OBI_0000424
+Study Assay Measurement Type Term Source REF	OBI
+Study Assay Technology Type	DNA microarray
+Study Assay Technology Type Term Accession Number	http://purl.obolibrary.org/obo/OBI_0400148
+Study Assay Technology Type Term Source REF	OBI
+Study Assay Technology Platform	Affymetrix
+STUDY PROTOCOLS
+Study Protocol Name	P-GSE40648-3	P-GSE40648-2	P-GSE40648-4	P-GSE40648-5	P-GSE40648-6	P-GSE40648-7	P-GSE40648-8	GeneLab microarray data processing protocol
+Study Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	image_acquisition	feature_extraction	data transformation
+Study Protocol Type Term Accession Number								http://purl.obolibrary.org/obo/OBI_0200000
+Study Protocol Type Term Source REF	OBI	OBI	OBI	OBI	OBI	OBI	OBI	OBI
+Study Protocol Description	E.coli was cultured in both noraml amd microgravity conditions. Three biological replicates were maintained under each condition.	When the OD600nm reached 0.8, 10 ml of the culture was suspended in 3 volumes of RNAlater solution (Ambion Inc., USA) and stored at 4 degrees centigrade until use.	Extraction of total RNA was performed according to the manufacturer's instructions (Qiagen RNeasy mini-prep kit ).	The cDNA was fragmented with DNAse 1 (Promega Corporation, Madison, USA) and then labeled with biotin at the 3' end using the labeling reagent from Affymetrix (CA, USA) and Terminal transferase enzyme (Promega).	DNA micro array chips were hybridized with the labelled cDNA using the Affymetrix protocol (www.affymetrix.com).	Microarray slides were then scanned using Affymetrix 428 Array Scanner and GCOS software to obtain images of the chips and further processed to get intensity cell files for the probe sets.	The intensity cell files were then imported, normalized for background correction and data analysed using GCOS. MAS algorithm was used to normalize the data.	Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Gene annotations were retrieved for each probeset from ThermoFisher (https://www.thermofisher.com/order/catalog/product/sec/assets?url=TFS-Assets/LSG/Support-Files/E_coli_2-na36-annot-csv.zip, created March 2016, accessed June 2024). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value.
+Study Protocol URI								
+Study Protocol Version								
+Study Protocol Parameters Name	Sample Media Information	Sample Preservation Method;Sample Storage Temperature		Label				Normalized Expression Table;Raw Intensities Table;differential expression analysis data
+Study Protocol Parameters Name Term Accession Number		;						https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0002584
+Study Protocol Parameters Name Term Source REF		;						;;OBI
+Study Protocol Components Name								
+Study Protocol Components Type								
+Study Protocol Components Type Term Accession Number								
+Study Protocol Components Type Term Source REF								
+STUDY CONTACTS
+Study Person Last Name	Arunasri	Shivaji	Arunasri
+Study Person First Name	kotakonda	S	K
+Study Person Mid Initials			
+Study Person Email	arunasri@ccmb.res.in		
+Study Person Phone	9.19866E+11		
+Study Person Fax			
+Study Person Address	Centre for Cellular and Molecular biology, Habsiguda, Hyderabad, Andhra Pradesh, India		
+Study Person Affiliation	Centre for Cellular and Molecular biology		
+Study Person Roles	submitter		
+Study Person Roles Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001741		
+Study Person Roles Term Source REF	EFO		
+Comment[Study Person REF]			
