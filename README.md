@@ -15,7 +15,7 @@ This repository contains an independent bioinformatics and transcriptomics analy
 
 ## Methodology & Tools
 * **Data Source:** NASA Open Science Data Repository (OSDR / GeneLab)
-* **Analysis Environment:** Python 3 (pandas, matplotlib, seaborn, Jupyter Notebooks)
+* **Analysis Environment:** Python 3 (pandas, matplotlib,  Jupyter Notebooks)
 * **Bioinformatics Workflow:** Data parsing, metadata matching, log fold-change calculation, and volcano plot visualization.
 
 ## Author
