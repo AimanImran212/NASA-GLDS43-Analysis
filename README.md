@@ -17,6 +17,14 @@ This repository contains an independent bioinformatics and transcriptomics analy
 * **Data Source:** NASA Open Science Data Repository (OSDR / GeneLab)
 * **Analysis Environment:** Python 3 (pandas, matplotlib,  Jupyter Notebooks)
 * **Bioinformatics Workflow:** Data parsing, metadata matching, log fold-change calculation, and volcano plot visualization.
+* ## Results
+
+### Volcano Plot of Differential Gene Expression
+This plot shows genes that are significantly upregulated and downregulated in *E. coli* under microgravity conditions compared to ground control.
+Red = Upregulated | Blue = Downregulated
+
+![Volcano Plot of DEGs](volcano_plot.png)
+*Figure 1: Volcano plot generated from GLDS-43 microarray data.*
 
 ## Author
 **Aiman Imran**  
